@@ -1,7 +1,7 @@
 # Project-Software1.0
 
 # Todo List Project
-![Texto alternativo]([ruta/a/la/imagen](https://github.com/jesus2307/Project-Software1.0/blob/main/diagrama_clases_todo_list.png))
+![Texto alternativo]([ruta/a/la/imagen](/jesus2307/Project-Software1.0/blob/main/diagrama_clases_todo_list.png))
 
 ### Descripción del Proyecto
 
