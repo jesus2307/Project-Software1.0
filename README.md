@@ -74,9 +74,9 @@ El proyecto está organizado de la siguiente manera:
    cd todo-list
 Compila el proyecto y ejecuta las pruebas:
 
-bash
-Copiar código
+```bash
 mvn clean test
+
 Uso
 Ejecuta el archivo Main para probar las funcionalidades de la lista de tareas. Puedes crear nuevas tareas y marcarlas como completadas desde la interfaz de la aplicación.
 
