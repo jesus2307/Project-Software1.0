@@ -77,18 +77,4 @@ Compila el proyecto y ejecuta las pruebas:
 ```bash
 mvn clean test
 
-Uso
-Ejecuta el archivo Main para probar las funcionalidades de la lista de tareas. Puedes crear nuevas tareas y marcarlas como completadas desde la interfaz de la aplicación.
-
-Requisitos
-Java 8 o superior.
-Maven para gestionar las dependencias.
-Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto o añadir nuevas funcionalidades, siéntete libre de hacer un fork y enviar un pull request.
-
-Licencia
-Este proyecto se distribuye bajo la licencia MIT.
-
-yaml
-Copiar código
-
+mvn compile exec:java -Dexec.mainClass="Main"
