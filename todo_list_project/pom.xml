@@ -1,17 +1,28 @@
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- Define la versión del modelo del archivo POM -->
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- Define el identificador de grupo para el proyecto, similar al nombre del paquete en Java -->
     <groupId>com.todo</groupId>
+
+    <!-- Define el identificador de artefacto del proyecto, usado como el nombre del archivo final generado -->
     <artifactId>todo-list</artifactId>
+
+    <!-- Define la versión del proyecto -->
     <version>1.0-SNAPSHOT</version>
+
+    <!-- Sección para definir las dependencias requeridas por el proyecto -->
     <dependencies>
+        <!-- Dependencia de JUnit para las pruebas, incluye la API de JUnit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.7.0</version>
-            <scope>test</scope>
+            <scope>test</scope> <!-- Solo se usa en el ámbito de pruebas -->
         </dependency>
+
+        <!-- Dependencia de JUnit para el motor de ejecución de las pruebas -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -19,22 +30,26 @@
             <scope>test</scope>
         </dependency>
 
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>5.7.0</version>
-        <scope>test</scope>
-    </dependency>
+        <!-- Dependencia duplicada de junit-jupiter-api, puede eliminarse si es redundante -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
+    <!-- Sección para la configuración del proceso de compilación del proyecto -->
     <build>
         <plugins>
+            <!-- Plugin para configurar el compilador de Maven -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.8</source> <!-- Define la versión de Java fuente utilizada (Java 1.8) -->
+                    <target>1.8</target> <!-- Define la versión de Java objetivo para la compilación (Java 1.8) -->
                 </configuration>
             </plugin>
         </plugins>
