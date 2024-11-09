@@ -1,7 +1,8 @@
 # Project-Software1.0
 
 # Todo List Project
-![Texto alternativo]([ruta/a/la/imagen](/jesus2307/Project-Software1.0/blob/main/diagrama_clases_todo_list.png))
+<img src="https://raw.githubusercontent.com/jesus2307/Project-Software1.0/main/diagrama_clases_todo_list.png" alt="Diagrama de Clases">
+
 
 ### Descripción del Proyecto
 
