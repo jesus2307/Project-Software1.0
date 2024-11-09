@@ -1,7 +1,7 @@
 # Project-Software1.0
 
 # Todo List Project
-
+diagrama_clases_todo_list.png
 ### Descripción del Proyecto
 
 Este proyecto implementa una aplicación básica de lista de tareas en Java, diseñada para ayudar a los usuarios a gestionar sus tareas pendientes. La aplicación permite a los usuarios crear, completar y visualizar el estado de sus tareas. Además, se integra con JUnit para facilitar la verificación de la funcionalidad mediante pruebas unitarias.
